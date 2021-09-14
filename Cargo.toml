@@ -1,0 +1,16 @@
+[package]
+name = "base64cr"
+version = "0.0.1" # Also update html_root_url in lib.rs when bumping this
+description = """
+Pure & Fastest Rust implementation of Base64
+"""
+authors = ["Kavan Mevada"]
+license = "Apache-2.0 OR MIT"
+edition = "2018"
+repository = "https://github.com/kavanmevada/base64cr"
+categories = ["encoding"]
+keywords = ["base64"]
+readme = "README.md"
+
+[dev-dependencies]
+base64 = "0.13.0"
