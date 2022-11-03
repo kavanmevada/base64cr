@@ -3,7 +3,7 @@ extern crate alloc;
 use alloc::vec::Vec;
 
 macro_rules! seq4 {
-    [seq $($e:expr),*] => { [$($e,$e,$e,$e,)*] }
+    [$($e:expr),*] => { [$($e,$e,$e,$e,)*] }
 }
 
 macro_rules! rep4 {
